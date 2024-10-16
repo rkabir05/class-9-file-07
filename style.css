@@ -46,6 +46,7 @@
 .header-englis-epapter {
     width: 20%;
     display: flex;
+    justify-content: end;
 }
 
 .header-englis-epapter p:hover {
@@ -122,18 +123,60 @@ ul.sub-menu {
     position: absolute;
     display: none;
     list-style: none;
+    top: 45px;
 }
 
 ul.sub-menu li {
-    width: max-content;
     border-bottom: 1px solid black;
     padding-left: 0;
-
 }
 
 .drop-down-menu nav ul li:hover .sub-menu {
     display: block;
+    width: max-content;
+    background: white;
+
 }
 
 
+.title {
+    width: auto;
+    margin: auto;
+    border-bottom: 3px solid white;
+    box-shadow: 0px 6px 15px -4px grey;
+    margin-top: 21px;
+}
 
+
+.title-main-text {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 41px;
+    align-items: center;
+}
+
+.title-text {
+    width: 87%;
+}
+
+.title-main {
+    width: 10%;
+}
+
+.title-text nav ul {
+    display: flex;
+}
+
+.title-text nav ul li {
+    padding-right: 25px;
+}
+
+.title-text nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
