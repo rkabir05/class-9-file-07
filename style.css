@@ -145,6 +145,7 @@ ul.sub-menu li {
     border-bottom: 3px solid white;
     box-shadow: 0px 6px 15px -4px grey;
     margin-top: 21px;
+    margin-bottom: 100px;
 }
 
 
@@ -179,4 +180,123 @@ ul.sub-menu li {
     color: black;
     font-size: 16px;
     font-weight: bold;
+}
+
+
+
+
+.footer-background {
+    width: auto;
+    height: 400px;
+    background: #787171;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.footer-main-box {
+    width: 1024px;
+    height: 350px;
+    margin: auto;
+    padding: 20px;
+    border-left: 5px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main-2 img {
+    width: 300px;
+}
+
+
+.footer-main-2 img {
+    width: 150px;
+}
+
+
+.footer-main-1 {
+    width: 65%;
+}
+
+.footer-main-2 {
+    width: 30%;
+}
+
+
+.bd-app-download {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bd-social-media {
+    display: flex;
+}
+
+.social-media nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.social-media nav ul li {
+    padding-left: 10px;
+}
+
+
+.footer-main-1a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: left;
+}
+
+.footer-main-a {
+    margin: 10px 60px 30px 0px;
+}
+
+.bd-app {
+    margin-top: 100px;
+}
+
+i.fa-brands.fa-square-instagram {
+    font-size: 30px;
+    color:rgb(20, 22, 22)
+}
+
+
+
+i.fa-brands.fa-x-twitter {
+    font-size: 30px;
+}
+
+i.fa-brands.fa-youtube {
+    color: red;
+    font-size: 30px;
+}
+
+i.fa-brands.fa-square-facebook {
+    font-size: 30px;
+    color: blue;
+}
+
+.footer-down {
+    width: 1024px;
+}
+
+.footer-down nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-down nav ul {
+    display: flex;
+    /* margin-left: 46px; */
+}
+
+.footer-down nav ul li {
+    padding-left: 19px;
+    list-style: none;
 }
