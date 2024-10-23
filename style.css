@@ -145,7 +145,7 @@ ul.sub-menu li {
     border-bottom: 3px solid white;
     box-shadow: 0px 6px 15px -4px grey;
     margin-top: 21px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 
@@ -182,6 +182,61 @@ ul.sub-menu li {
     font-weight: bold;
 }
 
+
+
+.lead-news-box {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.lead-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lead-text h1 {
+    font-size: 28px;
+}
+
+.lead-news {
+    width: 73%;
+    align-items: center;
+}
+
+.lead-img {
+    width: 62%;
+}
+
+.secend-lead {
+    width: 25%;
+}
+
+.secend-lead img {
+    max-width: 100%;
+}
+
+.lead-news img {
+    max-width: 100%;
+}
+
+
+.lead-text {
+    width: 35%;
+}
+
+
+.secend-lead-img {
+    margin-bottom: 17px;
+}
+
+
+.secend-lead-text h2 {
+    margin-bottom: 10px;
+}
 
 
 
@@ -284,11 +339,15 @@ i.fa-brands.fa-square-facebook {
 
 .footer-down {
     width: 1024px;
+    margin: auto;
+    margin-top: 15px;
 }
 
 .footer-down nav ul li a {
     text-decoration: none;
     color: black;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .footer-down nav ul {
