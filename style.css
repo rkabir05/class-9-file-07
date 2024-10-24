@@ -301,16 +301,9 @@ ul.sub-menu li {
 
 
 .footer-main-1a {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px;
-    align-items: left;
+    margin-left: 50px;
 }
 
-.footer-main-a {
-    margin: 10px 60px 30px 0px;
-}
 
 .bd-app {
     margin-top: 100px;
@@ -358,4 +351,26 @@ i.fa-brands.fa-square-facebook {
 .footer-down nav ul li {
     padding-left: 19px;
     list-style: none;
+}
+
+
+.footer-main-1a nav ul {
+    display: flex;
+}
+
+.footer-main-1a nav ul li {
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.footer-main-1a nav ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+}
+
+.footer-main-1a {
+    width: 900px;
 }
