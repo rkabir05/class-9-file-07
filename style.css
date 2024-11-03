@@ -264,7 +264,7 @@ ul.sub-menu li {
 
 .secend-box {
     margin-top: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 21px;
 }
 
 .secend-part-heading {
@@ -381,6 +381,108 @@ ul.sub-menu li {
     display: flex;
     justify-content: space-between;
 }
+
+
+.usa-main-part {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.usa-main-news-text {}
+
+.usa-main-news-and-pic {
+    display: flex;
+    align-items: center;
+}
+
+.usa-main-news-and-pic img {
+    max-width: 100%;
+}
+
+.usa-main-part-b img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.usa-main-part-c-1-img-text img {
+    max-width: 100%;
+}
+
+.usa-main-part-c-1-img {
+    width: 35%;
+    margin-right: 15px;
+}
+
+.usa-main-part-c-1-text {
+    width: 60%;
+}
+
+.usa-main-part-c-1-img-text {
+    align-items: center;
+}
+
+.usa-main-part-a {
+    width: 45%;
+}
+
+.usa-main-part-b {
+    width: 17%;
+}
+
+.usa-main-news-text h2 {
+    margin-bottom: 17px;
+}
+
+.usa-main-part-c {
+    width: 33%;
+}
+
+.usa-main-part-b-2 {
+    margin-top: 34px;
+}
+
+.usa-main-part-c-1-img-text-a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.usa-main-secend-three-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.usa-main-secend {
+    width: 30%;
+}
+
+.usa-main-secend img {
+    max-width: 100%;
+    margin-bottom: 11px;
+}
+
+
+.usa-main {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.usa-main img {
+    max-width: 100%;
+    width: 1400px;
+}
+
+
 
 
 .footer-logo-editor-name {
