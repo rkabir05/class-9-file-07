@@ -71,8 +71,9 @@
 
 .header-englis-epapter nav ul li {
     padding: 10px;
-
 }
+
+
 
 .header-englis-epapter nav ul li a {
     text-decoration: none;
@@ -480,6 +481,40 @@ ul.sub-menu li {
 .usa-main img {
     max-width: 100%;
     width: 1400px;
+}
+
+
+
+.highlight-main {
+    width: 1800px;
+    margin: auto;
+    background-image: url("images/section-bg.png");
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
+.highlight-main-news {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.highlights-news {
+    width: 23%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgb(216, 214, 213);
+}
+
+.highlights-news img {
+    max-width: 100%;
+    margin-bottom: 5px;
 }
 
 
