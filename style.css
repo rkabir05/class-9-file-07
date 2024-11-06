@@ -491,6 +491,7 @@ ul.sub-menu li {
     background-image: url("images/section-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 50px;
+    height: 673px;
 }
 
 
@@ -519,6 +520,158 @@ ul.sub-menu li {
 
 
 
+.newspaper {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.newspaper-main-part {
+    width: 65%;
+}
+
+.newspaper-part-last-news {
+    width: 30%;
+}
+
+.newspaper-main-part {
+    width: 65%;
+}
+
+.newspaper-part-last-news {
+    width: 30%;
+}
+
+.newspaper-part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspaper-part-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspaper-main-part {
+    width: 65%;
+}
+
+.newspaper-part-last-news {
+    width: 30%;
+}
+
+.newspaper-part-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspaper-part-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspaper-part-1-a {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.newspaper-part-1-b {width: 30%;}
+
+.newspaper-part-1-b img {
+    max-width: 100%;
+}
+
+.newspaper-part-1-a-image img {
+    max-width: 100%;
+}
+
+
+.newspaper-main-part {
+    width: 60%;
+}
+
+.newspaper-part-last-news {
+    width: 32%;
+}
+
+.newspaper-a h3 {
+    margin-bottom: 15px;
+}
+
+.newspaper-part-2-a {
+    width: 44%;
+}
+
+.newspaper-part-2-a-image img {
+    max-width: 100%;
+}
+
+.newspaper-part-2-a-image {
+    width: 65%;
+}
+
+.newspaper-part-2-a-heading {
+    width: 30%;
+}
+
+.newspaper-part-2-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newspaper-part-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.newspaper-part-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newspaper-part-1-a {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+}
+
+.newspaper-part-1-b {width: 30%;}
+
+.newspaper-part-1-b img {
+    max-width: 100%;
+}
+
+.newspaper-last-news-text {
+    text-align: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 15px;
+}
+
+.newspaper-main-last-newsandimage {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newspaper-last-news {
+    width: 70%;
+}
+
+.newspaper-last-image {
+    width: 28%;
+}
+
+.newspaper-last-image img {
+    max-width: 100%;
+}
 
 .footer-logo-editor-name {
     width: 1400px;
