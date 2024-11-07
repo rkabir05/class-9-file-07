@@ -5,18 +5,13 @@
     box-sizing: border-box;
 }
 
-.header {
-    width: 1400px;
-    margin: auto;
-    height: auto;
-    display: flex;
-}
 
 .header {
     width: 1400px;
     margin: auto;
     height: auto;
     display: flex;
+    background-image: url(images/header-bg.png);
     
 }
 
@@ -484,6 +479,9 @@ ul.sub-menu li {
 }
 
 
+.highlight-main .section-bg img {
+    max-width: 100%;
+}
 
 .highlight-main {
     width: 1800px;
@@ -491,7 +489,7 @@ ul.sub-menu li {
     background-image: url("images/section-bg.png");
     background-repeat: no-repeat;
     margin-bottom: 50px;
-    height: 673px;
+    height: auto;
 }
 
 
@@ -673,6 +671,85 @@ ul.sub-menu li {
     max-width: 100%;
 }
 
+
+
+
+
+
+.national-main-box {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+
+.national-lead-news {
+    width: 68%;
+}
+
+.national-lead-news img {
+    max-width: 100%;
+}
+
+.national-title-box {
+    width: 29%;
+}
+
+.national-lead {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.national-lead-heading {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.national-lead-text {
+    margin-top: 15px;
+}
+
+
+.national-lead-text {
+    margin-top: 15px;
+}
+
+.national-title {
+    text-align: center;
+    border-bottom: 1.5px solid;
+    background: #beb7b7;
+    margin-bottom: 20px;
+}
+
+.national-title-image-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.national-title-image img {
+    max-width: 100%;
+}
+
+.national-title-image {
+    width: 37%;
+}
+
+.national-title-heading {
+    width: 56%;
+}
+
+
+
+
 .footer-logo-editor-name {
     width: 1400px;
     margin: auto;
@@ -851,4 +928,8 @@ i.fa-brands.fa-square-facebook {
     color: black;
     font-weight: 400;
 }
+
+
+
+
 
